@@ -1,0 +1,12 @@
+
+Todo: 
+  ☐ 1. authentication and authorization
+        i. signup with t&c 
+        ii. signin
+        iii. middlewares
+        iv. email verification
+        v. forgot password with email link
+        vi. reset password with email link
+
+  ☐ 2. 
+
