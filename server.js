@@ -23,6 +23,9 @@ app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(cors());
 
+
+require('./routes/user.routes')(app)
+
 app.listen(PORT, () => {
     console.log(`SERVER IS RUNNING ON PORT ${PORT}`)
 })
